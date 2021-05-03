@@ -228,10 +228,12 @@ artists[8].name = "Vincent Van Gogh";
  3. Return a string in the format `the artist at index {id} is {name}`
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
-
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
+ function getArtistByIndex(arr, num) {
+ return "the artist at index" + " " + num + " " + "is" + " " + artists[num].name;
 }  
+getArtistByIndex(artists,0)
+
+
 
 
 
